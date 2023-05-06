@@ -1,0 +1,16 @@
+{
+  "${modID}:InfernoPower": {
+    "NAME": "InfernoPower",
+    "DESCRIPTIONS": [
+      "At the start of your turn, you may Exhaust #b",
+      " card(s) in your hand."
+    ]
+  },
+  "${modID}:TheBestDefensePower": {
+    "NAME": "The Best Defense",
+    "DESCRIPTIONS": [
+      "Whenever you apply Vulnerable, gain #b",
+      " Block."
+    ]
+  }
+}
