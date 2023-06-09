@@ -9,36 +9,47 @@
       "Blizzard is a good example for this."
     ]
   },
-  "${modID}:BlindRage": {
-    "NAME": "Blind Rage",
-    "DESCRIPTION": "Deal !D! damage. NL Add !M! copies of *Dazed to your hand. NL Exhaust."
+  "${modID}:Ambush": {
+    "NAME": "Ambush",
+    "DESCRIPTION": "If you have no Block, deal !D! damage."
+  },
+  "${modID}:BattleReady": {
+    "NAME": "Battle Ready",
+    "DESCRIPTION": "Reduce the cost of all attacks in your hand to 0 this combat. NL Exhaust."
+  },
+  "${modID}:BloodLust": {
+    "NAME": "Blood Lust",
+    "DESCRIPTION": "Whenever you apply Vulnerable, gain !M! Strength. NL At the start of your turn, lose 1 Strength."
   },
   "${modID}:BloodPact": {
     "NAME": "Blood Pact",
-    "DESCRIPTION": "Lose !D! HP. NL Gain !B! Block."
-  },
-  "${modID}:Fury": {
-    "NAME": "Fury",
-    "DESCRIPTION": "Deal !D! damage. If you have no Block, deal !D! damage again."
-  },
-  "${modID}:Inferno": {
-    "NAME": "Inferno",
-    "DESCRIPTION": "At the start of your turn, you may Exhaust up to !M! card(s) in your hand."
-  },
-  "${modID}:IronWill": {
-    "NAME": "Iron Will",
-    "DESCRIPTION": "Gain !B! Block. NL Exhaust all Curses and Statuses in your hand."
+    "DESCRIPTION": "Lose !M! HP. NL Gain !B! Block."
   },
   "${modID}:Dominate": {
     "NAME": "Dominate",
     "DESCRIPTION": "Deal !D! damage. NL If the enemy has Vulnerable, apply !M! Vulnerable."
   },
-  "${modID}:Reinforce": {
-    "NAME": "Reinforce",
-    "DESCRIPTION": "Gain !B! Block for each enemy in combat."
+  "${modID}:Feint": {
+    "NAME": "Feint",
+    "DESCRIPTION": "Deal !D! damage. NL Draw !M! card. NL Exhaust."
   },
-  "${modID}:TheBestDefense": {
-    "NAME": "The Best Defense",
-    "DESCRIPTION": "Whenever you apply Vulnerable, gain !B! Block."
+  "${modID}:GoldenArmor": {
+    "NAME": "Golden Armor",
+    "DESCRIPTION": "Lose 1 Dexterity. NL Gain !M! Plated Armor."
+  },
+  "${modID}:Inferno": {
+    "NAME": "Inferno",
+    "DESCRIPTION": "Unplayable. NL If this card is Exhausted, Deal !D! damage to ALL enemies.",
+    "EXTENDED_DESCRIPTION": [
+      "I can't play this card."
+    ]
+  },
+  "${modID}:IronWill": {
+    "NAME": "Iron Will",
+    "DESCRIPTION": "Gain !M! Block for each card in your Exhaust pile."
+  },
+  "${modID}:LoseControl": {
+    "NAME": "Lose Control",
+    "DESCRIPTION": "Add !M! copies of *Dazed to your hand."
   }
 }

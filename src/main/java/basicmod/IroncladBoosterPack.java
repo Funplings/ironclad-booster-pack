@@ -184,16 +184,22 @@ public class IroncladBoosterPack implements
     @Override
     public void receiveEditCards() {
         List<CustomCard> cards = new ArrayList<>();
+
+        // Common
         cards.add(new Dominate());
-        cards.add(new Fury());
-        cards.add(new IronWill());
-        cards.add(new Reinforce());
-
+        cards.add(new Feint());
+        cards.add(new Ambush());
         cards.add(new BloodPact());
-        cards.add(new BlindRage());
-        cards.add(new TheBestDefense());
 
+        // Uncommon
+        cards.add(new IronWill());
+        cards.add(new LoseControl());
+        cards.add(new BloodLust());
         cards.add(new Inferno());
+
+        // Rare
+        cards.add(new GoldenArmor());
+        cards.add(new BattleReady());
 
         for (CustomCard card : cards) {
             BaseMod.addCard(card);

@@ -1,8 +1,7 @@
-package basicmod.cards.red;
+package basicmod.cards.archived;
 
 import basicmod.cards.BaseCard;
 import basicmod.util.CardInfo;
-import com.megacrit.cardcrawl.actions.common.ExhaustSpecificCardAction;
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -36,8 +35,10 @@ public class Reinforce extends BaseCard {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        for (AbstractMonster ignored : AbstractDungeon.getMonsters().monsters) {
-            addToBot(new GainBlockAction(p, this.block));
+        for (AbstractMonster m2 : AbstractDungeon.getCurrRoom().monsters.monsters) {
+            if (!m2.isDeadOrEscaped()) {
+                addToBot(new GainBlockAction(p, this.block));
+            }
         }
     }
 

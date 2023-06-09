@@ -1,9 +1,37 @@
 {
+  "${modID}:BloodLossPower": {
+    "NAME": "Blood Loss",
+    "DESCRIPTIONS": [
+      "At the start of your turn, lose #b",
+      " Strength."
+    ]
+  },
+  "${modID}:BloodLustPower": {
+    "NAME": "Blood Lust",
+    "DESCRIPTIONS": [
+      "Whenever you apply Vulnerable, gain #b",
+      " Strength."
+    ]
+  },
   "${modID}:InfernoPower": {
-    "NAME": "InfernoPower",
+    "NAME": "Inferno",
     "DESCRIPTIONS": [
       "At the start of your turn, you may Exhaust #b",
       " card(s) in your hand."
+    ]
+  },
+  "${modID}:NoMercyPower": {
+    "NAME": "No Mercy",
+    "DESCRIPTIONS": [
+      "At the start of your turn, apply #b",
+      " Vulnerable to ALL enemies."
+    ]
+  },
+  "${modID}:RestoreHealthPower": {
+    "NAME": "Restore Health",
+    "DESCRIPTIONS": [
+      "At the end of combat, heal #b",
+      " HP."
     ]
   },
   "${modID}:TheBestDefensePower": {

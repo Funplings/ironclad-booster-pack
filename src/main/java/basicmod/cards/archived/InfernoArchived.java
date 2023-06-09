@@ -1,9 +1,9 @@
-package basicmod.cards.red;
+package basicmod.cards.archived;
 
 import basicmod.cards.BaseCard;
+import basicmod.powers.InfernoPower;
 import basicmod.util.CardInfo;
-import com.megacrit.cardcrawl.actions.common.GainBlockAction;
-import com.megacrit.cardcrawl.actions.common.LoseHPAction;
+import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -12,37 +12,34 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 import static basicmod.IroncladBoosterPack.makeID;
 
-public class BloodPact extends BaseCard {
+public class InfernoArchived extends BaseCard {
     private final static CardInfo cardInfo = new CardInfo(
-            "BloodPact",
-            1,
-            CardType.SKILL,
+            "Inferno",
+            2,
+            CardType.POWER,
             CardTarget.SELF,
-            CardRarity.COMMON,
+            CardRarity.RARE,
             CardColor.RED
     );
 
     public static final String ID = makeID(cardInfo.baseId);
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
 
-    private static final int MAGIC_NUMBER = 2;
-    private static final int BLOCK = 12;
-    private static final int UPG_BLOCK = 4;
+    private static final int MAGIC_NUMBER = 3;
 
-    public BloodPact() {
+    public InfernoArchived() {
         super(cardInfo);
         setMagic(MAGIC_NUMBER);
-        setBlock(BLOCK, UPG_BLOCK);
+        setCostUpgrade(1);
     }
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new LoseHPAction(p, p, this.magicNumber));
-        addToBot(new GainBlockAction(p, this.block));
+        addToBot(new ApplyPowerAction(p, p, new InfernoPower(p, this.magicNumber)));
     }
 
     @Override
     public AbstractCard makeCopy() {
-        return new BloodPact();
+        return new InfernoArchived();
     }
 }

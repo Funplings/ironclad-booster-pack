@@ -1,57 +1,57 @@
-package basicmod.cards.red;
+package basicmod.cards.archived;
 
 import basicmod.cards.BaseCard;
+import basicmod.powers.RestoreHealthPower;
 import basicmod.util.CardInfo;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.animations.VFXAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
+import com.megacrit.cardcrawl.actions.common.LoseHPAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import com.megacrit.cardcrawl.powers.VulnerablePower;
+import com.megacrit.cardcrawl.vfx.combat.HemokinesisEffect;
 
 import static basicmod.IroncladBoosterPack.makeID;
 
-public class Dominate extends BaseCard {
+public class BloodSacrifice extends BaseCard {
     private final static CardInfo cardInfo = new CardInfo(
-            "Dominate",
+            "BloodSacrifice",
             1,
             CardType.ATTACK,
             CardTarget.ENEMY,
-            CardRarity.COMMON,
+            CardRarity.UNCOMMON,
             CardColor.RED
     );
 
     public static final String ID = makeID(cardInfo.baseId);
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
 
-    private static final int DAMAGE = 8;
-    private static final int UPG_DAMAGE = 2;
+    private static final int DAMAGE = 25;
+    private static final int UPG_DAMAGE = 5;
 
-    private static final int MAGIC_NUMBER = 2;
-    private static final int UPG_MAGIC_NUMBER = 1;
+    private static final int MAGIC_NUMBER = 15;
 
-    public Dominate() {
+    public BloodSacrifice() {
         super(cardInfo);
         setDamage(DAMAGE, UPG_DAMAGE);
-        setMagic(MAGIC_NUMBER, UPG_MAGIC_NUMBER);
+        setMagic(MAGIC_NUMBER);
     }
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        if (m.hasPower("Vulnerable")) {
-            addToBot(new DamageAction(m, new DamageInfo(p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.BLUNT_HEAVY));
-            addToBot(new ApplyPowerAction(m, p, new VulnerablePower(m, magicNumber, false)));
-        } else {
-            addToBot(new DamageAction(m, new DamageInfo(p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.BLUNT_LIGHT));
-        }
+        addToBot(new VFXAction(new HemokinesisEffect(p.hb.cX, p.hb.cY, m.hb.cX, m.hb.cY), 0.5F));
+        addToBot(new LoseHPAction(p, p, this.magicNumber));
+        addToBot(new ApplyPowerAction(p, p, new RestoreHealthPower(p, this.magicNumber)));
+        addToBot(new DamageAction(m, new DamageInfo(p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
     }
 
     @Override
     public AbstractCard makeCopy() {
-        return new Dominate();
+        return new BloodSacrifice();
     }
 }

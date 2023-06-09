@@ -19,29 +19,25 @@ public class IronWill extends BaseCard {
             1,
             CardType.SKILL,
             CardTarget.SELF,
-            CardRarity.COMMON,
+            CardRarity.UNCOMMON,
             CardColor.RED
     );
 
     public static final String ID = makeID(cardInfo.baseId);
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
 
-    private static final int BLOCK = 9;
-    private static final int UPG_BLOCK = 3;
+    private static final int MAGIC_NUMBER = 2;
+    private static final int UPG_MAGIC_NUMBER = 1;
 
     public IronWill() {
         super(cardInfo);
-        setBlock(BLOCK, UPG_BLOCK);
+        setMagic(MAGIC_NUMBER, UPG_MAGIC_NUMBER);
     }
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new GainBlockAction(p, this.block));
-        for (AbstractCard c : AbstractDungeon.player.hand.group) {
-            if (c.type == CardType.CURSE || c.type == CardType.STATUS) {
-                addToBot(new ExhaustSpecificCardAction(c, AbstractDungeon.player.hand));
-            }
-        }
+        int exhaustCount = AbstractDungeon.player.exhaustPile.group.size();
+        addToBot(new GainBlockAction(p, exhaustCount * this.magicNumber));
     }
 
     @Override
