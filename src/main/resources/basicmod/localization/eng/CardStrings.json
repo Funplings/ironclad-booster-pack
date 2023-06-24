@@ -46,10 +46,14 @@
   },
   "${modID}:IronWill": {
     "NAME": "Iron Will",
-    "DESCRIPTION": "Gain !M! Block for each card in your Exhaust pile."
+    "DESCRIPTION": "Gain !M! Block for each card in your Exhaust pile.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Block for each card in your Exhaust pile +3.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Gains !B! Block.)"
+    ]
   },
   "${modID}:LoseControl": {
     "NAME": "Lose Control",
-    "DESCRIPTION": "Add !M! copies of *Dazed to your hand."
+    "DESCRIPTION": "Retain. NL Add !M! copies of *Dazed to your hand. NL Draw 1 card."
   }
 }

@@ -1,4 +1,4 @@
-package basicmod.cards.red;
+package basicmod.cards.archived;
 
 import basicmod.cards.BaseCard;
 import basicmod.util.CardInfo;
@@ -14,7 +14,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 import static basicmod.IroncladBoosterPack.makeID;
 
-public class NoMercy extends BaseCard {
+public class NoMercy2 extends BaseCard {
     private final static CardInfo cardInfo = new CardInfo(
             "NoMercy",
             2,
@@ -31,7 +31,7 @@ public class NoMercy extends BaseCard {
 
     private static final int MAGIC_NUMBER = 5;
     private static final int UPG_MAGIC_NUMBER = 1;
-    public NoMercy() {
+    public NoMercy2() {
         super(cardInfo);
         setDamage(DAMAGE);
         setMagic(MAGIC_NUMBER, UPG_MAGIC_NUMBER);
@@ -102,6 +102,6 @@ public class NoMercy extends BaseCard {
 
     @Override
     public AbstractCard makeCopy() {
-        return new NoMercy();
+        return new NoMercy2();
     }
 }

@@ -16,7 +16,7 @@ import static basicmod.IroncladBoosterPack.makeID;
 public class GoldenArmor extends BaseCard {
     private final static CardInfo cardInfo = new CardInfo(
             "GoldenArmor",
-            2,
+            1,
             CardType.POWER,
             CardTarget.SELF,
             CardRarity.RARE,
@@ -26,7 +26,7 @@ public class GoldenArmor extends BaseCard {
     public static final String ID = makeID(cardInfo.baseId);
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
 
-    private static final int MAGIC_NUMBER = 8;
+    private static final int MAGIC_NUMBER = 10;
     private static final int UPG_MAGIC_NUMBER = 2;
 
     public GoldenArmor() {

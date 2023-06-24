@@ -4,7 +4,6 @@ import basicmod.cards.BaseCard;
 import basicmod.util.CardInfo;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.DamageAllEnemiesAction;
-import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -27,8 +26,8 @@ public class Inferno extends BaseCard {
     public static final String ID = makeID(cardInfo.baseId);
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
 
-    private static final int DAMAGE = 18;
-    private static final int UPG_DAMAGE = 4;
+    private static final int DAMAGE = 20;
+    private static final int UPG_DAMAGE = 5;
 
     public Inferno() {
         super(cardInfo);

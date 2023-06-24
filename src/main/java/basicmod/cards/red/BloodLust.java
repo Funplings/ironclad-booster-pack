@@ -16,7 +16,7 @@ import static basicmod.IroncladBoosterPack.makeID;
 public class BloodLust extends BaseCard {
     private final static CardInfo cardInfo = new CardInfo(
             "BloodLust",
-            2,
+            1,
             CardType.POWER,
             CardTarget.SELF,
             CardRarity.UNCOMMON,
@@ -31,7 +31,7 @@ public class BloodLust extends BaseCard {
     public BloodLust() {
         super(cardInfo);
         setMagic(MAGIC_NUMBER);
-        setCostUpgrade(1);
+        setCostUpgrade(0);
     }
 
     @Override

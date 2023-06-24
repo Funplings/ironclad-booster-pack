@@ -2,11 +2,9 @@ package basicmod.cards.red;
 
 import basicmod.cards.BaseCard;
 import basicmod.util.CardInfo;
-import com.megacrit.cardcrawl.actions.AbstractGameAction;
-import com.megacrit.cardcrawl.actions.common.DamageAction;
+import com.megacrit.cardcrawl.actions.common.DrawCardAction;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.cards.status.Dazed;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -34,11 +32,13 @@ public class LoseControl extends BaseCard {
     public LoseControl() {
         super(cardInfo);
         setMagic(MAGIC_NUMBER, UPG_MAGIC_NUMBER);
+        this.retain = true;
     }
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot(new MakeTempCardInHandAction(new Dazed(), MAGIC_NUMBER));
+        addToBot(new DrawCardAction(1));
     }
 
     @Override

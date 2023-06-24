@@ -1,0 +1,276 @@
+04:04:23.698 INFO basemod.BaseMod> initializeGson
+04:04:23.716 INFO basemod.BaseMod> initializeTypeMaps
+04:04:23.717 INFO basemod.BaseMod> Registered MonsterStrings
+04:04:23.720 INFO basemod.BaseMod> Registered PowerStrings
+04:04:23.722 INFO basemod.BaseMod> Registered CardStrings
+04:04:23.723 INFO basemod.BaseMod> Registered RelicStrings
+04:04:23.724 INFO basemod.BaseMod> Registered EventStrings
+04:04:23.728 INFO basemod.BaseMod> Registered PotionStrings
+04:04:23.728 INFO basemod.BaseMod> Registered CreditStrings
+04:04:23.729 INFO basemod.BaseMod> Registered TutorialStrings
+04:04:23.732 INFO basemod.BaseMod> Registered KeywordStrings
+04:04:23.733 INFO basemod.BaseMod> Registered ScoreBonusStrings
+04:04:23.734 INFO basemod.BaseMod> Registered CharacterStrings
+04:04:23.734 INFO basemod.BaseMod> Registered UIStrings
+04:04:23.735 INFO basemod.BaseMod> Registered OrbStrings
+04:04:23.737 INFO basemod.BaseMod> Registered StanceStrings
+04:04:23.738 INFO basemod.BaseMod> Registered RunModStrings
+04:04:23.738 INFO basemod.BaseMod> Registered BlightStrings
+04:04:23.739 INFO basemod.BaseMod> Registered AchievementStrings
+04:04:23.739 INFO basemod.BaseMod> initializePowerMap
+04:04:24.149 INFO basemod.BaseMod> initializeUnderscorePowerIDs
+04:04:24.190 INFO TheDiscfortuneMod> TheDiscfortuneMod subscribed to BaseMod.
+04:04:24.194 INFO TheSilentBoosterPack> TheSilentBoosterPack subscribed to BaseMod.
+04:04:24.196 INFO desktop.DesktopLauncher> time: 1686283464196
+04:04:24.196 INFO desktop.DesktopLauncher> version: 2022-12-18
+04:04:24.197 INFO desktop.DesktopLauncher> libgdx:  1.9.5
+04:04:24.197 INFO desktop.DesktopLauncher> default_locale: en_US
+04:04:24.197 INFO desktop.DesktopLauncher> default_charset: windows-1252
+04:04:24.197 INFO desktop.DesktopLauncher> default_encoding: windows-1252
+04:04:24.198 INFO desktop.DesktopLauncher> java_version: 1.8.0_144
+04:04:24.198 INFO desktop.DesktopLauncher> os_arch: amd64
+04:04:24.198 INFO desktop.DesktopLauncher> os_name: Windows 10
+04:04:24.199 INFO desktop.DesktopLauncher> os_version: 10.0
+04:04:24.201 INFO core.SystemStats> MEMORY STATS:
+Free Memory: 307Mb
+Max Memory: 1,333Mb
+Allocated Memory: 596Mb
+Unallocated Memory: 737Mb
+Total Free Memory: 1,044Mb
+Used Memory: 288Mb
+
+04:04:24.205 INFO core.SystemStats> DISK STATS:
+Total Space: 486,108Mb
+Usable Space: 139,415Mb
+Free Space: 139,415Mb
+
+04:04:24.209 INFO core.DisplayConfig> Reading info.displayconfig
+04:04:24.215 INFO core.DisplayConfig> DisplayConfig successfully read.
+04:04:24.216 INFO desktop.DesktopLauncher> [WINDOWED_MODE]
+04:04:24.217 INFO desktop.DesktopLauncher> Settings successfully loaded
+04:04:24.217 INFO desktop.DesktopLauncher> Launching application...
+04:04:25.340 INFO ststwitch.TwitchConfig> The 'twitchconfig.txt' already exists, not overwriting it.
+04:04:25.345 INFO core.CardCrawlGame> DistributorPlatform=steam
+04:04:25.345 INFO core.CardCrawlGame> isModded=true
+04:04:25.345 INFO core.CardCrawlGame> isBeta=false
+04:04:25.647 INFO steam.SteamIntegration> [FAILURE] Steam API failed to initialize correctly.
+04:04:25.650 INFO core.CardCrawlGame> No migration
+04:04:25.656 INFO core.Settings> Initializing display settings...
+04:04:25.656 INFO core.DisplayConfig> Reading info.displayconfig
+04:04:25.657 INFO core.DisplayConfig> DisplayConfig successfully read.
+04:04:25.657 INFO core.Settings> Initializing sound settings...
+04:04:25.658 INFO core.Settings> Initializing game settings...
+04:04:25.715 INFO localization.LocalizedStrings> Loc Strings load time: 46ms
+04:04:25.716 INFO basemod.BaseMod> begin editing localization strings
+04:04:25.722 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.RunModStrings
+04:04:25.730 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.PowerStrings
+04:04:25.734 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.RelicStrings
+04:04:25.736 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.UIStrings
+04:04:25.738 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.PowerStrings
+04:04:25.739 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.RelicStrings
+04:04:25.740 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.UIStrings
+04:04:25.742 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.CardStrings
+04:04:25.744 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.CharacterStrings
+04:04:25.745 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.EventStrings
+04:04:25.746 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.OrbStrings
+04:04:25.747 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.PotionStrings
+04:04:25.748 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.PowerStrings
+04:04:25.749 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.RelicStrings
+04:04:25.750 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.UIStrings
+04:04:25.752 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.CardStrings
+04:04:25.753 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.CharacterStrings
+04:04:25.754 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.EventStrings
+04:04:25.754 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.OrbStrings
+04:04:25.755 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.PotionStrings
+04:04:25.755 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.PowerStrings
+04:04:25.756 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.RelicStrings
+04:04:25.756 INFO basemod.BaseMod> loadJsonStrings: com.megacrit.cardcrawl.localization.UIStrings
+04:04:25.783 INFO audio.MusicMaster> Music Volume: 0.5
+04:04:25.787 INFO audio.SoundMaster> Sound Effect Volume: 0.5
+04:04:25.788 INFO audio.SoundMaster> Loaded 368 Sound Effects
+04:04:25.788 INFO audio.SoundMaster> SFX load time: 3ms
+04:04:25.790 INFO basemod.BaseMod> begin adding custom sounds
+04:04:25.790 INFO basemod.BaseMod> Added 0 sounds
+04:04:27.135 INFO cards.AbstractCard> Card Image load time: 1340ms
+04:04:27.137 INFO basemod.BaseMod> editting keywords
+04:04:28.026 INFO helpers.ImageMaster> Texture load time: 882ms
+04:04:28.563 INFO helpers.FontHelper> Font load time: 442ms
+04:04:28.633 INFO unlock.UnlockTracker> RED UNLOCKS:   0/9
+04:04:28.634 INFO unlock.UnlockTracker> GREEN UNLOCKS: 0/9
+04:04:28.634 INFO unlock.UnlockTracker> BLUE UNLOCKS: 0/9
+04:04:28.634 INFO unlock.UnlockTracker> PURPLE UNLOCKS: 0/9
+04:04:28.634 INFO unlock.UnlockTracker> RELIC UNLOCKS: 0/24
+04:04:28.712 INFO unlock.UnlockTracker> CARDS SEEN:    10/0
+04:04:28.752 INFO unlock.UnlockTracker> RELICS SEEN:   7/0
+04:04:28.754 INFO basemod.BaseMod> publish post refresh - refreshing unlocks
+04:04:28.755 INFO basemod.BaseMod> begin editing cards
+04:04:29.023 DEBUG helpers.AsyncSaver> Enqueue: qsize=0 file=preferences\STSSeenCards
+04:04:29.026 DEBUG helpers.AsyncSaver> Enqueue: qsize=1 file=preferences\STSUnlocks
+04:04:29.027 DEBUG helpers.AsyncSaver> Enqueue: qsize=1 file=preferences\STSSeenCards
+04:04:29.027 DEBUG helpers.AsyncSaver> Enqueue: qsize=2 file=preferences\STSUnlocks
+04:04:29.028 DEBUG helpers.AsyncSaver> Enqueue: qsize=3 file=preferences\STSSeenCards
+04:04:29.027 DEBUG helpers.FileSaver> Dequeue: qsize=1 file=preferences\STSSeenCards
+04:04:29.029 DEBUG helpers.AsyncSaver> Enqueue: qsize=4 file=preferences\STSUnlocks
+04:04:29.029 DEBUG helpers.AsyncSaver> Enqueue: qsize=5 file=preferences\STSSeenCards
+04:04:29.029 DEBUG helpers.File> Attempting to save file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSSeenCards
+04:04:29.030 DEBUG helpers.AsyncSaver> Enqueue: qsize=6 file=preferences\STSUnlocks
+04:04:29.030 DEBUG helpers.AsyncSaver> Enqueue: qsize=7 file=preferences\STSSeenCards
+04:04:29.030 DEBUG helpers.AsyncSaver> Enqueue: qsize=8 file=preferences\STSUnlocks
+04:04:29.031 DEBUG helpers.AsyncSaver> Enqueue: qsize=9 file=preferences\STSSeenCards
+04:04:29.031 DEBUG helpers.AsyncSaver> Enqueue: qsize=10 file=preferences\STSUnlocks
+04:04:29.032 DEBUG helpers.AsyncSaver> Enqueue: qsize=11 file=preferences\STSSeenCards
+04:04:29.032 DEBUG helpers.AsyncSaver> Enqueue: qsize=12 file=preferences\STSUnlocks
+04:04:29.032 DEBUG helpers.AsyncSaver> Enqueue: qsize=13 file=preferences\STSSeenCards
+04:04:29.033 DEBUG helpers.AsyncSaver> Enqueue: qsize=14 file=preferences\STSUnlocks
+04:04:29.033 DEBUG helpers.AsyncSaver> Enqueue: qsize=15 file=preferences\STSSeenCards
+04:04:29.033 DEBUG helpers.AsyncSaver> Enqueue: qsize=16 file=preferences\STSUnlocks
+04:04:29.033 DEBUG helpers.AsyncSaver> Enqueue: qsize=17 file=preferences\STSSeenCards
+04:04:29.034 DEBUG helpers.AsyncSaver> Enqueue: qsize=18 file=preferences\STSUnlocks
+04:04:29.068 DEBUG helpers.File> Successfully saved file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSSeenCards
+04:04:29.068 DEBUG helpers.FileSaver> Dequeue: qsize=18 file=preferences\STSUnlocks
+04:04:29.068 DEBUG helpers.File> Attempting to save file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSUnlocks
+04:04:29.091 DEBUG helpers.File> Successfully saved file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSUnlocks
+04:04:29.091 DEBUG helpers.FileSaver> Dequeue: qsize=17 file=preferences\STSSeenCards
+04:04:29.091 DEBUG helpers.File> Attempting to save file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSSeenCards
+04:04:29.105 DEBUG helpers.File> Successfully saved file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSSeenCards
+04:04:29.105 DEBUG helpers.FileSaver> Dequeue: qsize=16 file=preferences\STSUnlocks
+04:04:29.106 DEBUG helpers.File> Attempting to save file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSUnlocks
+04:04:29.118 DEBUG helpers.File> Successfully saved file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSUnlocks
+04:04:29.118 DEBUG helpers.FileSaver> Dequeue: qsize=15 file=preferences\STSSeenCards
+04:04:29.118 DEBUG helpers.File> Attempting to save file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSSeenCards
+04:04:29.135 DEBUG helpers.File> Successfully saved file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSSeenCards
+04:04:29.135 DEBUG helpers.FileSaver> Dequeue: qsize=14 file=preferences\STSUnlocks
+04:04:29.135 DEBUG helpers.File> Attempting to save file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSUnlocks
+04:04:29.148 DEBUG helpers.File> Successfully saved file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSUnlocks
+04:04:29.148 DEBUG helpers.FileSaver> Dequeue: qsize=13 file=preferences\STSSeenCards
+04:04:29.149 DEBUG helpers.File> Attempting to save file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSSeenCards
+04:04:29.163 DEBUG helpers.File> Successfully saved file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSSeenCards
+04:04:29.163 DEBUG helpers.FileSaver> Dequeue: qsize=12 file=preferences\STSUnlocks
+04:04:29.163 DEBUG helpers.File> Attempting to save file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSUnlocks
+04:04:29.179 DEBUG helpers.File> Successfully saved file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSUnlocks
+04:04:29.179 DEBUG helpers.FileSaver> Dequeue: qsize=11 file=preferences\STSSeenCards
+04:04:29.179 DEBUG helpers.File> Attempting to save file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSSeenCards
+04:04:29.184 INFO panels.TopPanel> Twitch Integration enabled due to presence of 'twitch.properties` file.
+04:04:29.191 INFO panels.TopPanel> Not starting twitch integration because enabled=false
+04:04:29.195 DEBUG helpers.File> Successfully saved file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSSeenCards
+04:04:29.195 DEBUG helpers.FileSaver> Dequeue: qsize=10 file=preferences\STSUnlocks
+04:04:29.195 DEBUG helpers.File> Attempting to save file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSUnlocks
+04:04:29.210 DEBUG helpers.File> Successfully saved file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSUnlocks
+04:04:29.210 DEBUG helpers.FileSaver> Dequeue: qsize=9 file=preferences\STSSeenCards
+04:04:29.211 DEBUG helpers.File> Attempting to save file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSSeenCards
+04:04:29.229 DEBUG helpers.File> Successfully saved file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSSeenCards
+04:04:29.229 DEBUG helpers.FileSaver> Dequeue: qsize=8 file=preferences\STSUnlocks
+04:04:29.229 DEBUG helpers.File> Attempting to save file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSUnlocks
+04:04:29.242 DEBUG helpers.File> Successfully saved file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSUnlocks
+04:04:29.242 DEBUG helpers.FileSaver> Dequeue: qsize=7 file=preferences\STSSeenCards
+04:04:29.242 DEBUG helpers.File> Attempting to save file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSSeenCards
+04:04:29.255 DEBUG helpers.File> Successfully saved file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSSeenCards
+04:04:29.255 DEBUG helpers.FileSaver> Dequeue: qsize=6 file=preferences\STSUnlocks
+04:04:29.255 DEBUG helpers.File> Attempting to save file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSUnlocks
+04:04:29.270 DEBUG helpers.File> Successfully saved file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSUnlocks
+04:04:29.271 DEBUG helpers.FileSaver> Dequeue: qsize=5 file=preferences\STSSeenCards
+04:04:29.271 DEBUG helpers.File> Attempting to save file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSSeenCards
+04:04:29.282 DEBUG helpers.File> Successfully saved file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSSeenCards
+04:04:29.283 DEBUG helpers.FileSaver> Dequeue: qsize=4 file=preferences\STSUnlocks
+04:04:29.283 DEBUG helpers.File> Attempting to save file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSUnlocks
+04:04:29.297 DEBUG helpers.File> Successfully saved file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSUnlocks
+04:04:29.297 DEBUG helpers.FileSaver> Dequeue: qsize=3 file=preferences\STSSeenCards
+04:04:29.298 DEBUG helpers.File> Attempting to save file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSSeenCards
+04:04:29.308 DEBUG helpers.File> Successfully saved file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSSeenCards
+04:04:29.308 DEBUG helpers.FileSaver> Dequeue: qsize=2 file=preferences\STSUnlocks
+04:04:29.308 DEBUG helpers.File> Attempting to save file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSUnlocks
+04:04:29.320 DEBUG helpers.File> Successfully saved file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSUnlocks
+04:04:29.320 DEBUG helpers.FileSaver> Dequeue: qsize=1 file=preferences\STSSeenCards
+04:04:29.320 DEBUG helpers.File> Attempting to save file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSSeenCards
+04:04:29.334 DEBUG helpers.File> Successfully saved file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSSeenCards
+04:04:29.334 DEBUG helpers.FileSaver> Dequeue: qsize=0 file=preferences\STSUnlocks
+04:04:29.334 DEBUG helpers.File> Attempting to save file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSUnlocks
+04:04:29.346 DEBUG helpers.File> Successfully saved file=C:\Users\matth\OneDrive\Desktop\sts-modding\mods\ironclad-booster-pack\preferences\STSUnlocks
+04:04:29.458 INFO core.DisplayConfig> Reading info.displayconfig
+04:04:29.460 INFO core.DisplayConfig> DisplayConfig successfully read.
+04:04:29.692 INFO helpers.CardLibrary> Card load time: 658ms with 380 cards
+04:04:29.694 INFO basemod.BaseMod> begin editing relics
+04:04:29.708 INFO TheDiscfortuneMod> Loaded texture basicmod/relics/BirthdayCake.png
+04:04:29.714 INFO helpers.ImageMaster> [WARNING] No image at images/relics/
+04:04:29.715 INFO helpers.ImageMaster> [WARNING] No image at images/relics/outline/
+04:04:29.728 INFO TheDiscfortuneMod> Loaded texture basicmod/relics/BirthdayCakeOutline.png
+04:04:29.734 INFO TheDiscfortuneMod> Loaded texture basicmod/relics/CD.png
+04:04:29.735 INFO helpers.ImageMaster> [WARNING] No image at images/relics/
+04:04:29.736 INFO helpers.ImageMaster> [WARNING] No image at images/relics/outline/
+04:04:29.737 INFO TheDiscfortuneMod> Loaded texture basicmod/relics/CDOutline.png
+04:04:29.739 INFO TheDiscfortuneMod> Loaded texture basicmod/relics/Luckstep.png
+04:04:29.739 INFO helpers.ImageMaster> [WARNING] No image at images/relics/
+04:04:29.740 INFO helpers.ImageMaster> [WARNING] No image at images/relics/outline/
+04:04:29.749 INFO TheDiscfortuneMod> Loaded texture basicmod/relics/LuckstepOutline.png
+04:04:30.005 INFO helpers.RelicLibrary> Relic load time: 254ms
+04:04:30.006 INFO input.InputHelper> Setting input processor to Scroller
+04:04:30.034 INFO steamInput.SteamInputHelper> Steam isn't running? SteamInput is disabled.
+04:04:30.038 INFO integrations.SteelSeries> enabled=false
+04:04:30.052 INFO basemod.BaseMod> postCreateStartingRelics for: IRONCLAD
+04:04:30.052 INFO basemod.BaseMod> postCreateStartingRelics adding [ Burning Blood ]
+04:04:30.218 INFO basemod.BaseMod> postCreateStartingRelics for: THE_SILENT
+04:04:30.218 INFO basemod.BaseMod> postCreateStartingRelics adding [ Ring of the Snake ]
+04:04:30.337 INFO basemod.BaseMod> postCreateStartingRelics for: DEFECT
+04:04:30.338 INFO basemod.BaseMod> postCreateStartingRelics adding [ Cracked Core ]
+04:04:30.431 INFO basemod.BaseMod> postCreateStartingRelics for: WATCHER
+04:04:30.432 INFO basemod.BaseMod> postCreateStartingRelics adding [ PureWater ]
+04:04:30.538 INFO basemod.BaseMod> begin editing characters
+04:04:30.555 INFO basemod.BaseMod> publishPostInitialize
+04:04:30.632 INFO basemod.BaseMod> registerModBadge : BaseMod
+04:04:30.633 INFO basemod.ModBadge> initialized mod badge for: BaseMod
+04:04:30.633 INFO basemod.ModBadge> setup hooks for BaseMod mod badge
+04:04:30.640 INFO basemod.BaseMod> initializeUnderscoreCardIDs
+04:04:30.642 INFO basemod.BaseMod> initializeUnderscorePotionIDs
+04:04:30.642 INFO basemod.BaseMod> initializeUnderscoreEventIDs
+04:04:30.643 INFO basemod.BaseMod> initializeUnderscoreRelicIDs
+04:04:30.644 INFO basemod.BaseMod> initializeEncounters
+04:04:30.729 INFO TheDiscfortuneMod> Loaded texture basicmod/badge.png
+04:04:30.731 INFO basemod.BaseMod> registerModBadge : The Discfortune Mod
+04:04:30.731 INFO basemod.ModBadge> initialized mod badge for: The Discfortune Mod
+04:04:30.732 INFO basemod.ModBadge> setup hooks for The Discfortune Mod mod badge
+04:04:30.736 INFO TheSilentBoosterPack> Loaded texture silentboosterpackmod/badge.png
+04:04:30.738 INFO basemod.BaseMod> registerModBadge : The Silent Booster Pack
+04:04:30.738 INFO basemod.ModBadge> initialized mod badge for: The Silent Booster Pack
+04:04:30.738 INFO basemod.ModBadge> setup hooks for The Silent Booster Pack mod badge
+04:04:30.747 INFO controller.CInputHelper> [CONTROLLER] Utilizing DirectInput
+04:04:31.096 INFO controller.CInputHelper> [CONTROLLER] No controllers detected
+04:04:38.600 INFO stats.StatsScreen> Loading character stats.
+04:04:38.685 INFO basemod.BaseMod> publishAddCustomModeMods
+04:04:38.689 INFO core.DisplayConfig> Reading info.displayconfig
+04:04:38.691 INFO core.DisplayConfig> DisplayConfig successfully read.
+04:04:38.694 DEBUG steam.SteamIntegration> Setting Rich Presence: Main Menu
+04:04:38.796 INFO unlock.UnlockTracker> RED UNLOCKS:   0/9
+04:04:38.796 INFO unlock.UnlockTracker> GREEN UNLOCKS: 0/9
+04:04:38.797 INFO unlock.UnlockTracker> BLUE UNLOCKS: 0/9
+04:04:38.797 INFO unlock.UnlockTracker> PURPLE UNLOCKS: 0/9
+04:04:38.797 INFO unlock.UnlockTracker> RELIC UNLOCKS: 0/24
+04:04:38.797 INFO unlock.UnlockTracker> CARDS SEEN:    10/380
+04:04:38.797 INFO unlock.UnlockTracker> RELICS SEEN:   7/181
+04:04:38.797 INFO UnlockTracker.CountModdedUnlockCards> Counting modded unlocks.
+04:04:38.798 INFO basemod.BaseMod> publish post refresh - refreshing unlocks
+04:04:38.798 INFO UnlockTracker.CountModdedUnlockCards> Counting modded unlocks.
+04:04:38.798 INFO compendium.CardLibraryScreen> Initializing card library screen.
+04:04:38.807 INFO basemod.BaseMod> postCreateStartingRelics for: IRONCLAD
+04:04:38.808 INFO basemod.BaseMod> postCreateStartingRelics adding [ Burning Blood ]
+04:04:38.852 INFO characters.CharacterManager> Successfully recreated IRONCLAD
+04:04:38.854 INFO basemod.BaseMod> postCreateStartingRelics for: THE_SILENT
+04:04:38.855 INFO basemod.BaseMod> postCreateStartingRelics adding [ Ring of the Snake ]
+04:04:38.901 INFO characters.CharacterManager> Successfully recreated THE_SILENT
+04:04:38.902 INFO basemod.BaseMod> postCreateStartingRelics for: DEFECT
+04:04:38.902 INFO basemod.BaseMod> postCreateStartingRelics adding [ Cracked Core ]
+04:04:38.963 INFO characters.CharacterManager> Successfully recreated DEFECT
+04:04:38.964 INFO basemod.BaseMod> postCreateStartingRelics for: WATCHER
+04:04:38.964 INFO basemod.BaseMod> postCreateStartingRelics adding [ PureWater ]
+04:04:39.030 INFO characters.CharacterManager> Successfully recreated WATCHER
+04:04:39.038 INFO saveAndContinue.SaveAndContinue> IRONCLAD save does NOT exist!
+04:04:39.045 INFO saveAndContinue.SaveAndContinue> THE_SILENT save does NOT exist!
+04:04:39.045 INFO saveAndContinue.SaveAndContinue> DEFECT save does NOT exist!
+04:04:39.046 INFO saveAndContinue.SaveAndContinue> WATCHER save does NOT exist!
+04:04:40.769 INFO mainMenu.MainMenuScreen> No saves detected, opening Save Slot screen automatically.
+04:04:48.123 INFO core.CardCrawlGame> PAUSE()
+04:04:48.124 INFO core.CardCrawlGame> Game shutting down...
+04:04:48.124 INFO core.CardCrawlGame> Flushing saves to disk...
+04:04:48.125 INFO core.CardCrawlGame> Shutting down publisher integrations...
+04:04:48.125 INFO core.CardCrawlGame> Flushing logs to disk. Clean shutdown successful.
+04:04:48.127 INFO helpers.FileSaver> Save thread interrupted!
+04:04:48.130 INFO helpers.FileSaver> Save thread will die now.

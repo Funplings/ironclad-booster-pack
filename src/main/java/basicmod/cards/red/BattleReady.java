@@ -1,10 +1,8 @@
 package basicmod.cards.red;
 
+import basicmod.actions.SetCostToZeroAction;
 import basicmod.cards.BaseCard;
 import basicmod.util.CardInfo;
-import com.megacrit.cardcrawl.actions.common.GainBlockAction;
-import com.megacrit.cardcrawl.actions.common.LoseHPAction;
-import com.megacrit.cardcrawl.actions.common.ReduceCostAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -17,7 +15,7 @@ import static basicmod.IroncladBoosterPack.makeID;
 public class BattleReady extends BaseCard {
     private final static CardInfo cardInfo = new CardInfo(
             "BattleReady",
-            3,
+            2,
             CardType.SKILL,
             CardTarget.SELF,
             CardRarity.RARE,
@@ -35,7 +33,7 @@ public class BattleReady extends BaseCard {
     public BattleReady() {
         super(cardInfo);
         setMagic(MAGIC_NUMBER, UPG_MAGIC_NUMBER);
-        this.setCostUpgrade(2);
+        this.setCostUpgrade(1);
         this.exhaust = true;
     }
 
@@ -43,7 +41,7 @@ public class BattleReady extends BaseCard {
     public void use(AbstractPlayer p, AbstractMonster m) {
         for (AbstractCard c: AbstractDungeon.player.hand.group) {
             if (c.type == CardType.ATTACK) {
-                addToBot(new ReduceCostAction(c.uuid, 999));
+                addToBot(new SetCostToZeroAction(c));
             }
         }
     }
